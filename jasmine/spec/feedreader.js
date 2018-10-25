@@ -73,7 +73,7 @@ $(function () {
             });
 
             it("a single entry is present when LoadFeed is called", function () {
-                expect($(",feed .entry").length).toBeGreaterThan(0);
+                expect($(".feed .entry").length).toBeGreaterThan(0);
             });
         });
     });
